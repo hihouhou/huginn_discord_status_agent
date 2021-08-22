@@ -18,19 +18,20 @@ module Agents
 
     event_description <<-MD
       Events look like this:
-        {
-          "page": {
-            "id": "srhpyqt94yxb",
-            "name": "Discord",
-            "url": "https://discordstatus.com",
-            "time_zone": "America/Tijuana",
-            "updated_at": "2020-10-28T14:23:33.064-07:00"
-          },
-          "status": {
-            "indicator": "none",
-            "description": "All Systems Operational"
+
+          {
+            "page": {
+              "id": "srhpyqt94yxb",
+              "name": "Discord",
+              "url": "https://discordstatus.com",
+              "time_zone": "America/Tijuana",
+              "updated_at": "2020-10-28T14:23:33.064-07:00"
+            },
+            "status": {
+              "indicator": "none",
+              "description": "All Systems Operational"
+            }
           }
-        }
     MD
 
     def default_options
